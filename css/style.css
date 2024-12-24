@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: xx-large;
+    background-color: #333;
+}
+
+img{
+    width: 30%;
+    height: fit-content;
+}
+
+#imageContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    width: 100%;
+    height: 5px;
+    overflow: visible;
+    border: none;
+    border-top: 3px double #333;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a, div{
+    color: azure;
+}
